@@ -12,11 +12,10 @@
                     }
                 }},
                 {"name": "user_id", "type": {
-                    "type": "int",
+                    "type": "string",
                     "arg.properties": {
-                        "range": {
-                            "min": -1,
-                            "max": 20
+                        "arg.properties": {
+                        "regex": "User_[1-9]{0,1}"
                         }
                     }
                 }},
@@ -52,7 +51,6 @@
               "options": [
                 "web",
                 "iOS",
-                "ios",
                 "iOS-test",
                 "android"
               ]

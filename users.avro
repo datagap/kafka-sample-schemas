@@ -34,6 +34,16 @@
                         ]
                     }
                 }},
+                {"name": "subscription", "type": {
+                    "type": "string",
+                    "arg.properties": {
+                        "options": [
+                            "BASIC",
+                            "STANDARD",
+                            "PREMIUM"
+                        ]
+                    }
+                }},
                 {
                       "name": "interests",
                       "type": {
