@@ -13,10 +13,8 @@
                 }},
                 {"name": "user_id", "type": {
                     "type": "string",
-                    "arg.properties": {
-                        "arg.properties": {
+                     "arg.properties": {
                         "regex": "User_[1-9]{0,1}"
-                        }
                     }
                 }},
                 {"name": "stars", "type": {
