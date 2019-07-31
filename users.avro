@@ -38,9 +38,9 @@
                     "type": "string",
                     "arg.properties": {
                         "options": [
-                            "BASIC",
-                            "STANDARD",
-                            "PREMIUM"
+                            "Basic",
+                            "Standard",
+                            "Premium"
                         ]
                     }
                 }},
