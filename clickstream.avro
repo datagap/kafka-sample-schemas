@@ -63,21 +63,15 @@
 //                    "-"
 //                  ]
 //                  }}},
-//                {"name": "userid", "type": {
-//                    "type": "int",
-//                  // link the user-id to a hash of the 'session' field - obeying the range specified here
-//                    "session-sibling-int-hash" : "true",
-//                    "arg.properties": {
-//                        "range": {
-//                            "min": -1,
-//                            "max": 40
-//                        }
-//                    }
-//                }},
                 {"name": "userid", "type": {
-                    "type": "string",
+                    "type": "int",
+                  // link the user-id to a hash of the 'session' field - obeying the range specified here
+                    "session-sibling-int-hash" : "true",
                     "arg.properties": {
-                        "regex": "User_[1-9]{0,1}"
+                        "range": {
+                            "min": -1,
+                            "max": 100000
+                        }
                     }
                 }},
               {"name": "remote_user", "type": {

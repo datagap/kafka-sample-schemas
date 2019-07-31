@@ -13,9 +13,11 @@
                     }
                 }},
                 {"name": "userid", "type": {
-                    "type": "string",
+                    "type": "int",
                     "arg.properties": {
-                        "regex": "User_[1-9]{0,1}"
+                        "iteration": {
+                            "start": 1
+                        }
                     }
                 }},
                 {"name": "regionid", "type": {
