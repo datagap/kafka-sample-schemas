@@ -108,9 +108,9 @@
                     "type": "string",
                     "arg.properties": {
                         "options": [
-                        	"Gold",
-                        	"Silver",
-                        	"Platinum"
+                        	"Basic",
+                            "Standard",
+                            "Premium"
                         ]
                     }
                 }}
